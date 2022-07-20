@@ -30,8 +30,9 @@ class Developer:
         content = f"""
           Hey, I'm {self.get_fullname}.\n
           Currently I am in {self.location}.\n
-          And I believe I am goot at {self.skills}
+          And I believe I am good at {self.skills}
           """
+          print(content)
 ```
 <div>
 <a href="https://www.linkedin.com/in/amir-shahsafi-917617135" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
