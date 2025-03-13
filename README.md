@@ -23,12 +23,11 @@ class Developer:
             'Keep Learning :))',
         ]
     @property
-    def get_fullname(self):
+    def fullname(self):
         return f"{self.name},{self.family}"
-    @property
     def who_am_i(self):
         content = f"""
-          Hey, I'm {self.get_fullname}.\n
+          Hey, I'm {self.fullname}.\n
           Currently I am in {self.location}.\n
           And I believe I am good at {self.skills}
           """
